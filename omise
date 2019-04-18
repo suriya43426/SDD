@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <title>Donate</title>
+</head>
+<body>
+<form class="checkout-form" name="checkoutForm" method="POST" action="checkout.php">
+  <script type="text/javascript" src="https://cdn.omise.co/omise.js"
+          data-key="pkey_test_5fm52ztnwhs1qhaaqf4"
+          data-frame-label="Easy Donate"
+          data-frame-description="บริจาคเงินออนไลสะดวกทุกที่ทุกเวลา"
+          data-default-payment-method="credit_card"
+          data-other-payment-methods="credit_card,internet_banking,"
+          data-amount="30000"
+          data-currency="thb"
+          data-button-label="บริจาค">
+  </script>
+</form>
+</body>
+</html>
+
